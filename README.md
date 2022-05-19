@@ -18,9 +18,9 @@ The code was tested with Python 3.7, PyTorch 1.8.0, OpenCV 4.5.1, and timm 0.4.5
 
 # For Test on Season Dataset
 DPT weight on Season Dataset in [here](https://drive.google.com/file/d/1fra9LQEWI61vAy9d5GqaW4ja-NSnN6yF/view?usp=sharing).
-'''
+```
 python test.py --model_path  --test_img_path
-'''
+```
 
 # Licences:
 DPT(MIT License):  https://github.com/isl-org/DPT#license
