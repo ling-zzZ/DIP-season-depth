@@ -1,2 +1,2 @@
-# DIP-season-depth
+# DPT-season-depth
 DPT refined on season dataset
