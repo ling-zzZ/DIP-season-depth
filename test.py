@@ -60,8 +60,8 @@ def load_model(model_path):
 def main():
     parser = argparse.ArgumentParser(description="DPT")
 
-    parser.add_argument('--test_data', default='./img/img_03170_c0_1303398750047535us.jpg')
-    parser.add_argument('--model_set', default='dpt_season_weight.pkl')
+    parser.add_argument('--test_img_path', default='./img/img_03170_c0_1303398750047535us.jpg')
+    parser.add_argument('--model_path', default='dpt_season_weight.pkl')
     parser.add_argument('--size', default='576x768')
     parser.add_argument('--num', default='10000', type=int)
     parser.add_argument('--name', default='', help="using for result dir")
